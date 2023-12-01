@@ -1,6 +1,6 @@
 
 function analyzeImage() {
-    #call the API
+    
     var uriBase = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/analyze";
     var params = {
         "visualFeatures": "Categories,Description,Color",
